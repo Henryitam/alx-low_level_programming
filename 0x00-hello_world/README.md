@@ -1,1 +1,1 @@
-the multilinguals
+ the multilingual

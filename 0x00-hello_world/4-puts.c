@@ -1,10 +1,12 @@
 #include <stdio.h>
-/**
-*main-Enty point for program
-*Return: Zero (0)
-*/
+  
+/**                                                                                                                        
+ * main - Entry point for the program                                                                                      
+ * Description: prints "\"Programming is like building a multilingual puzzle"                                              
+ * Return: 0                                                                                                               
+ */
 int main(void)
 {
-  puts("\"programmming is like building a multilingual puzzle")
-    return (0);
-}
+        puts("\"Programming is like building a multilingual puzzle"); 
+        return (0);
+}      

@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * * main - srves as the entry point for the program
- * * 
- * Return: By default returns 0
+ * *
+ * * Return: By default returns 0
  */
 int main(void)
 {

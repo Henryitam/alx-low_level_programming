@@ -1,1 +1,1 @@
-a function that draws a diagonal line on the terminal.
+ is an interview question designed to help filter out the 99.5% of programming job

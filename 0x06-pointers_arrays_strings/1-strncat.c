@@ -1,31 +1,30 @@
-#include "main.h"
-#include <stdio.h>
-/**
- * *_strncat - function to concertena a number of strings
- * to a destination string
- * @dest:destination string
- * @src:soure string
- * @n:integer parameter determining number
- * of strings to be concertenated
- * return:dest
- */
+#incude "main.h"
 
+/**
+ * _strncat - Concatenates two strings
+ * @dest: The destination value
+ * @src: The source value
+ * @n: The limit of the concatenation
+ * Return: A pointer to the resulting string dest
+ */
 char *_strncat(char *dest, char *src, int n)
+{
+        int dlen = 0, j = 0;
   
-{  
-  int p, k; 
-  p = 0;
-  while (dest[p] != '\0')
-    {
-      p++; 
-    }
-  k = 0;
-  while (src[k] != '\0' && k < n)  
-    {
-      dest[p] = src[k]; 
-      k++;
-      p++;
-    }
-  dest[p] = '\0';
-  return (dest);
+	while (dest[dlen])
+	{
+	        dlen++;
+        }
+  
+	while (j < n && src[j])
+	{
+	        dest[dlen] = src[j];
+		dlen++;
+		j++;
+	}
+  
+	dest[dlen + n + 1] = '\0';
+  
+	return (dest);
+  
 }

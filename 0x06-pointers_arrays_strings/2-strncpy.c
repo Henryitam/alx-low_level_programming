@@ -1,28 +1,25 @@
-#include "main.h"
+#include "holberton.h"
 #include <stdio.h>
 
 /**
- * *_strncpy - function to copy a number
- * of strings into another string
- * @dest:destination string
- * @src:source string
- * @n:number of strings to be concertenated
- * Return:dest
+ * _strcat - Concatenates two strings
+ * @dest: The destination string
+ * @src: The source string
+ * Return: A pointer to the resulting string dest
  */
 
-char *_strncpy(char *dest, char *src, int n)  
+char *_strcat(char *dest, char *src)  
 {
-  int k;
-   k = 0;
-   while (src[k] != '\0' && k < n) 
+  int dlen = 0, i;
+  while (dest[dlen])  
     {
-       dest[k] = src[k];
-       k++;
+      dlen++
     }
-   while (k < n)
-    {      
-      dest[k] = '\0';
-      k++;
-    }  
+  for (i = 0; src[i] != 0; i++)
+    {
+      dest[dlen] = src[i];
+      dlen++;
+    }
+  dest[dlen] = '\0';
   return (dest);
 }

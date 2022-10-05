@@ -1,1 +1,1 @@
-4isapha
+4strpbrk

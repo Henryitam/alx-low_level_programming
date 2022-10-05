@@ -1,1 +1,1 @@
-the strncat file
+ the 100atoi file

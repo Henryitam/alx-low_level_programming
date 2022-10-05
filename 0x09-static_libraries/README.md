@@ -1,1 +1,1 @@
-the memcy file
+the strncat file

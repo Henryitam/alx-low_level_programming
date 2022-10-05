@@ -1,1 +1,1 @@
-2strlen
+2strncpy file

@@ -1,1 +1,1 @@
-3strcmp
+strpn

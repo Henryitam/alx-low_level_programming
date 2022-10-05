@@ -1,1 +1,1 @@
-5strstr
+6abs

@@ -1,1 +1,1 @@
-2strncpy file
+isolower3 

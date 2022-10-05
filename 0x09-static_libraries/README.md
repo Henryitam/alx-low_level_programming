@@ -1,1 +1,1 @@
-3put
+3strcmp

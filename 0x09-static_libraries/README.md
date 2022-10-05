@@ -1,1 +1,1 @@
-6abs
+strcpy
